@@ -1,4 +1,4 @@
-def abctract(one:str)->int:
+def calculate_profit(one:str)->int:
     result = 0
     one = int(one)
     if one > 0:
@@ -17,7 +17,7 @@ def abctract(one:str)->int:
          
 
 
-print(abctract("100_000_000")) 
+print(calculate_profit("100_000_000")) 
                              
         
         
