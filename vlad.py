@@ -21,7 +21,7 @@ def calculate_profit(one:str)->int|str:
 
 
 print(calculate_profit(" kykareky")) 
-#Оброботать ошибки                          
+                         
         
         
 
