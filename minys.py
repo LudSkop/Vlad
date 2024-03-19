@@ -26,6 +26,8 @@ for name, salary in dict_1.items():
 
 
 print(Fore.LIGHTBLUE_EX + tabulate(table_data, headers=['name','value'], tablefmt='grid'))
+with open('Liuda.json', 'w') as file:
+    file.write(dict_1)
 
     
     
