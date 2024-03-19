@@ -20,6 +20,7 @@ def calculate_profit(one:str)->int|str:
 print(calculate_profit(" kykareky")) 
 
 if __name__ == "__main__" :
+     print (calculate_profit("5699999"))
                          
         
         
