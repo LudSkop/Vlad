@@ -17,12 +17,9 @@ def calculate_profit(one:str)->int|str:
     except ValueError:
         return "Invalid input: Please provide a valid integer."        
         
-         
-
-
 print(calculate_profit(" kykareky")) 
+
+if __name__ == "__main__" :
                          
         
         
-
-
