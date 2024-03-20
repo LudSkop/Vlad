@@ -1,4 +1,4 @@
-#from colorama import For
+from colorama import Fore
 
 
 #скласти програму яка виводить з клавіатури на єкран 3 значне число 
