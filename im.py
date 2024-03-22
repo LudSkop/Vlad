@@ -3,9 +3,9 @@
 while True:
 
     try:
-        ege = input('how old are you?>>>  ')
-        ege = int(ege)
-        if ege >= 18:
+        age = input('how old are you?>>>  ')
+        age = int(age)
+        if age >= 18:
             print('Access alloved')
             break
         else:
