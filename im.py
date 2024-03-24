@@ -1,16 +1,10 @@
+try:
+    nume = int(input('Enter a namber>>>  '))
+    is_even = True if nume % 2 == 0 else False
+    print(is_even)
+except ValueError:
+    print('Invalid input>>>   ')
 
 
-while True:
 
-    try:
-        age = input('how old are you?>>>  ')
-        age = int(age)
-        if age >= 18:
-            print('Access alloved')
-            break
-        else:
-            print('Access denied')
-            break
 
-    except ValueError:
-        print('please of number>>>  ')
