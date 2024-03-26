@@ -1,11 +1,12 @@
-a = 20
-b = 30
-sume = a
-a = b
-b = sume
-print(f'a: {a} b: {b}')
-    
-         
+string = input('enter a string:    ')
+
+count = 0
+
+for see in string:
+    if see == 'A':
+        break
+    count += 1
+print(f'A: {count}')
 
 
 
