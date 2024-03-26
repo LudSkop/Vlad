@@ -1,6 +1,6 @@
 string = input('enter a string:    ')
 
-count = 0
+count = 1
 
 for see in string:
     if see == 'A':
