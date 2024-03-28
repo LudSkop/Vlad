@@ -1,15 +1,14 @@
-string = input('enter a string:    ')
+#пошук символа у строці.
 
-count = 0
-index = -1 
+messege ='i need your advice.' 
 
-for see in string:
-    if see == 'A':
-        index = count
-    count += 1
-   
-  
-print(f'ostanne : {index}')
+search ='e'
+result = 0
+for bor in messege:
+    if bor == search:
+        result += 1
+print(result)
+
 
 
 
