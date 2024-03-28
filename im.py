@@ -1,15 +1,13 @@
 #пошук символа у строці.
+question = 'i need no study harder'
 
-messege ='i need your advice.' 
-
-search ='e'
 result = 0
-for bor in messege:
-    if bor == search:
+qw = 'e'
+
+for erre in question:
+    if erre == qw:
         result += 1
 print(result)
-
-
 
 
 
